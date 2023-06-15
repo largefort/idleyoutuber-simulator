@@ -1,0 +1,54 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.channel-section {
+    margin-bottom: 20px;
+}
+
+.channel-section input {
+    width: 200px;
+    padding: 5px;
+}
+
+.channel-section button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.channel-section button:hover {
+    background-color: #45a049;
+}
+
+.stats {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.stats p {
+    margin: 5px;
+}
+
+.actions button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: #45a049;
+}
