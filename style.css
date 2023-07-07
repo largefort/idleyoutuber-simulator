@@ -19,14 +19,15 @@ h1 {
 
 .channel-section button {
     padding: 5px 10px;
-    background-color: #4CAF50;
+    background-color: #FF0000;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 .channel-section button:hover {
-    background-color: #45a049;
+    background-color: #CC0000;
+    transition: background-color 0.3s ease;
 }
 
 .stats {
@@ -43,12 +44,13 @@ h1 {
 .actions button {
     margin: 5px;
     padding: 5px 10px;
-    background-color: #4CAF50;
+    background-color: #FF0000;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 .actions button:hover {
-    background-color: #45a049;
+    background-color: #CC0000;
+    transition: background-color 0.3s ease;
 }
