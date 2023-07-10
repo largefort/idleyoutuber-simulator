@@ -54,3 +54,14 @@ h1 {
     background-color: #CC0000;
     transition: background-color 0.3s ease;
 }
+
+/* Media query for Android screens */
+@media only screen and (max-device-width: 767px) {
+    .container {
+        width: 100%;
+    }
+
+    .channel-section input {
+        width: 100%;
+    }
+}
