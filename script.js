@@ -67,15 +67,9 @@ function promoteVideo() {
     updateStats();
 }
 
-// ...
-
 function monetize() {
-    earnings += subscribers / 1000; // Update the calculation based on subscribers
+    earnings += views / 1000;
     updateStats();
-}
-
-// ...
-
 }
 
 updateStats();
